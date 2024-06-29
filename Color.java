@@ -24,8 +24,9 @@ public class Color{
 	 * 	and different from the exisitng color before making the change
 	 */
 	public boolean  changeColor(String newColor){
+        if (isColorValid(newColor) && !(newColor.equals(this.color))) {
 		this.color = newColor;
-
+        }
 		return true;
 	}
 
@@ -36,7 +37,7 @@ public class Color{
 				return true;
 			}
 		}
-		
+	
 		//Failed to find a match, the color is invalid
 		return false;
 	}
