@@ -1,6 +1,7 @@
 /*
- *Jiacheng HUang
+ *Jiacheng Huang
  *jhuang574@wisc.edu
+ *jiachengh
  * Test the use of the Color method
  */
 import java.util.*;

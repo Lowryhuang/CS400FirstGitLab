@@ -1,4 +1,7 @@
 /*
+ *Jiacheng Huang		
+ *jhuang574@wisc.edu
+ *jiachengh
  *	Color class
  */
 public class Color{
